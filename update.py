@@ -24,7 +24,7 @@ FORMULAS = {
         "class": "Graft",
         "repo": "lydakis/graft",
         "archive": "graft",
-        "desc": "Work in instant copies of a GitHub repository or folder, built on sandfs",
+        "desc": "Many cheap copies of a GitHub repository or folder for parallel agents",
         "license": '"MIT"',
         "bins": ["gft", "graft"],
         "test": "gft",
