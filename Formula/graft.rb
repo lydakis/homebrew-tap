@@ -2,28 +2,28 @@
 class Graft < Formula
   desc "Many cheap copies of a GitHub repository or folder for parallel agents"
   homepage "https://github.com/lydakis/graft"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/lydakis/graft/releases/download/v0.1.0/graft-aarch64-apple-darwin.tar.gz"
-      sha256 "ab545f72f8d47c754ffc5eda630bfdadf5245b0adaf77d912f396e636f0e338e"
+      url "https://github.com/lydakis/graft/releases/download/v0.2.0/graft-aarch64-apple-darwin.tar.gz"
+      sha256 "773f94ea2bf96e9c36c31058b25ab0d56da83daadf01e9a9e75d5fe6acfdeb14"
     end
     on_intel do
-      url "https://github.com/lydakis/graft/releases/download/v0.1.0/graft-x86_64-apple-darwin.tar.gz"
-      sha256 "247f0df7ef547f48fd2e7be5c1288f90f532cd31e656db4dbcae9a291df263a4"
+      url "https://github.com/lydakis/graft/releases/download/v0.2.0/graft-x86_64-apple-darwin.tar.gz"
+      sha256 "d49eed97ae8bccca3f37181788eaf3fcae3f408e312a415d8d0ec417a52163d5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/lydakis/graft/releases/download/v0.1.0/graft-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "6e3a7630061cb37aaba10888082214d7c9ce2e73dda3e589878612dee087fa5b"
+      url "https://github.com/lydakis/graft/releases/download/v0.2.0/graft-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "0afa9b6ab20e6c273a916d209fc94099c9020e1ae4fe66262e53c1c2b64ded0f"
     end
     on_intel do
-      url "https://github.com/lydakis/graft/releases/download/v0.1.0/graft-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "16e20c9b66e5b4a2d698f9db76a31e1f3ec350fdd02bd86a0bdf7f2f90d1683c"
+      url "https://github.com/lydakis/graft/releases/download/v0.2.0/graft-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "2c5edcd506ea64535a6323d1b224e8ec0bd3edcfb3bcb384765146ae01a9c3b4"
     end
   end
 
