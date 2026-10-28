@@ -2,28 +2,28 @@
 class Sandfs < Formula
   desc "Copy-on-write workspaces over folders and git repositories, mounted as folders"
   homepage "https://github.com/lydakis/sandfs"
-  version "0.8.0"
+  version "0.9.0"
   license all_of: ["MIT", "BSD-3-Clause"]
 
   on_macos do
     on_arm do
-      url "https://github.com/lydakis/sandfs/releases/download/v0.8.0/sandfs-aarch64-apple-darwin.tar.gz"
-      sha256 "d25ec81251f7f1fbc970ef229b7effe15a3fabe5dc291277223f93603cfd4a18"
+      url "https://github.com/lydakis/sandfs/releases/download/v0.9.0/sandfs-aarch64-apple-darwin.tar.gz"
+      sha256 "95ad8ffe7124492c900257e237f555d60c3e9d88e47c50fa3417a5082ce24bc8"
     end
     on_intel do
-      url "https://github.com/lydakis/sandfs/releases/download/v0.8.0/sandfs-x86_64-apple-darwin.tar.gz"
-      sha256 "5272be26608c1b1e1387be7bd0bfa7c990a9c709307bb972c68271e05143da3c"
+      url "https://github.com/lydakis/sandfs/releases/download/v0.9.0/sandfs-x86_64-apple-darwin.tar.gz"
+      sha256 "03373aa04b26b1c2295d6f8ed2c60b7903833c9403ba5e2d34da316fd07ab561"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/lydakis/sandfs/releases/download/v0.8.0/sandfs-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "5062871dc2fef34c315fbba76ede35866c3042d1fbbe2216e9a0c4603b79bd7e"
+      url "https://github.com/lydakis/sandfs/releases/download/v0.9.0/sandfs-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "264971dbec4ad531e2ad6e5de793a42a5f7f2b74cb809908130bce86ae619b58"
     end
     on_intel do
-      url "https://github.com/lydakis/sandfs/releases/download/v0.8.0/sandfs-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "1fc487481221667781d6fad3acd50ba303e4a435d5d6cfb4ded86954596c137c"
+      url "https://github.com/lydakis/sandfs/releases/download/v0.9.0/sandfs-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "cd2d03e6d7c615171d11f6a603f8a960a6c17747001dc16027ae6dd9d3d59ac7"
     end
   end
 
